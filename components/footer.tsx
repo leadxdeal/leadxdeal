@@ -263,7 +263,7 @@ export default function FooterSection() {
                     src="/images/leadtext.png"
                     alt="LeadXDeal"
                     fill
-                    className="object-contain dark:brightness-0 dark:invert"
+                    className="object-contain"
                   />
                 </div>
               </Link>
