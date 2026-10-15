@@ -19,7 +19,7 @@ export const Logo = ({ className }: { className?: string }) => {
           src="/images/leadtext.png"
           alt="leadxdeal brand"
           fill
-          className="object-contain dark:brightness-0 dark:invert"
+          className="object-contain"
         />
       </div>
     </div>
