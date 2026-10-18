@@ -357,22 +357,34 @@ export default function FooterSection() {
           </div>
         </section>
 
+        
         {/* ========================================================= */}
         {/* BOTTOM */}
         {/* ========================================================= */}
 
         <div className="border-t border-neutral-200 py-7 dark:border-white/[0.07]">
-          <div className="flex flex-col items-center justify-between gap-7 md:flex-row">
+          <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
 
-            {/* Copyright */}
+            {/* Company details */}
             <div className="text-center md:text-left">
-              <p className="text-xs font-medium text-neutral-400 dark:text-neutral-500">
-                © {new Date().getFullYear()} LeadXDeal. All rights reserved.
+              <p className="text-sm font-bold text-neutral-800 dark:text-neutral-200">
+                LeadXDeal
               </p>
 
-              <p className="mt-1 text-[11px] text-neutral-400/70 dark:text-neutral-600">
-                Where Leads Become Deals.
+              <p className="mt-1 text-xs text-neutral-500 dark:text-neutral-400">
+                A brand of Ascentace International Solutions
               </p>
+
+              <p className="mt-2 text-xs text-neutral-400 dark:text-neutral-500">
+                © 2026 Ascentace International Solutions. All rights reserved.
+              </p>
+
+              <a
+                href="mailto:hello@leadxdeal.com"
+                className="mt-2 inline-block text-xs font-medium text-neutral-600 underline decoration-[#E8FF00]/60 underline-offset-4 transition-colors hover:text-neutral-950 dark:text-neutral-400 dark:hover:text-[#E8FF00]"
+              >
+                hello@leadxdeal.com
+              </a>
             </div>
 
             {/* Social */}
