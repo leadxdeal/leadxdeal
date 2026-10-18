@@ -182,19 +182,32 @@ export default function FooterSection() {
                 help fill your calendar with qualified, exclusive meetings.
               </p>
 
-              {/* CTA */}
-              <div className="mt-9 flex flex-col items-center justify-center gap-4 sm:flex-row">
-                <Link
-                  href="/book-a-call"
-                  className="group inline-flex items-center justify-center gap-3 rounded-full bg-[#E8FF00] px-7 py-4 text-sm font-black text-black shadow-[0_0_40px_rgba(232,255,0,0.12)] transition-all duration-300 hover:-translate-y-1 hover:bg-[#dfff00] hover:shadow-[0_0_60px_rgba(232,255,0,0.28)]"
-                >
-                  Book Your Free Strategy Call
+              
+{/* CTA + CONTACT EMAIL */}
+<div className="mt-9 flex flex-col items-center justify-center gap-5">
+  <Link
+    href="/book-a-call"
+    className="group inline-flex items-center justify-center gap-3 rounded-full bg-[#E8FF00] px-7 py-4 text-sm font-black text-black shadow-[0_0_40px_rgba(232,255,0,0.12)] transition-all duration-300 hover:-translate-y-1 hover:bg-[#dfff00] hover:shadow-[0_0_60px_rgba(232,255,0,0.28)] sm:text-base"
+  >
+    Book Your Free Strategy Call
 
-                  <span className="flex h-6 w-6 items-center justify-center rounded-full bg-black/10 transition-transform duration-300 group-hover:translate-x-1">
-                    <IconArrowRight className="h-4 w-4" />
-                  </span>
-                </Link>
-              </div>
+    <span className="flex h-6 w-6 items-center justify-center rounded-full bg-black/10 transition-transform duration-300 group-hover:translate-x-1">
+      <IconArrowRight className="h-4 w-4" />
+    </span>
+  </Link>
+
+  {/* Contact Email */}
+  <p className="text-lg font-semibold text-neutral-700 dark:text-neutral-300 sm:text-xl">
+    Contact us:{" "}
+    <a
+      href="mailto:hello@leadxdeal.com"
+      className="font-bold text-[#8a9900] underline decoration-[#8a9900]/40 underline-offset-4 transition-colors duration-300 hover:text-[#20BFC2] dark:text-[#E8FF00] dark:decoration-[#E8FF00]/40 dark:hover:text-[#20BFC2]"
+    >
+      hello@leadxdeal.com
+    </a>
+  </p>
+</div>
+
 
               {/* Trust points */}
               <div className="mt-8 flex flex-wrap items-center justify-center gap-x-5 gap-y-2">
