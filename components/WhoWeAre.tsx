@@ -589,27 +589,9 @@ export default function WhoWeAre() {
 
               
 <div className="mt-7 flex flex-col items-center gap-4">
-  {/* Tagline */}
-  <p className="text-base font-medium text-zinc-400 sm:text-lg">
-    You sell. We build the pipeline.
-  </p>
-
-  {/* Business email */}
-  <div className="flex flex-wrap items-center justify-center gap-2 text-lg font-semibold sm:text-xl">
-    <Mail className="h-5 w-5 shrink-0 text-[#20BFC2] sm:h-6 sm:w-6" />
-
-    <span className="text-zinc-300">
-      Contact us:
-    </span>
-
-    <a
-      href="mailto:hello@leadxdeal.com"
-      className="text-[#E8FF00] underline decoration-[#E8FF00]/30 underline-offset-4 transition-colors duration-300 hover:text-[#20BFC2] hover:decoration-[#20BFC2]"
-    >
-      hello@leadxdeal.com
-    </a>
-  </div>
-</div>
+<p className="mt-5 text-sm font-medium text-zinc-500 sm:text-base">
+  You sell. We build the pipeline.
+</p>
 
             </motion.div>
           </div>
